@@ -20,7 +20,7 @@ namespace Prometheus.Tests
                                                 "Provides the count of HttpClient requests that have been called by the client.",
                                                 new CounterConfiguration
                                                 {
-                                                    LabelNames = HttpClientRequestLabelNames.All
+                                                    LabelNames = HttpClientLabelNames.All
                                                 });
 
 

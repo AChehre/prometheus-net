@@ -30,4 +30,8 @@
 		<ProjectReference Include="..\Prometheus.NetStandard\Prometheus.NetStandard.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="HttpClientMetrics\InProgress\" />
+	</ItemGroup>
+
 </Project>

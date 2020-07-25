@@ -22,7 +22,7 @@ namespace Tests.Prometheus.HttpClient
                                             "The number of requests currently in progress in the HttpClient pipeline.",
                                             new GaugeConfiguration
                                             {
-                                                LabelNames = HttpClientRequestLabelNames.All
+                                                LabelNames = HttpClientLabelNames.All
                                             });
 
 
